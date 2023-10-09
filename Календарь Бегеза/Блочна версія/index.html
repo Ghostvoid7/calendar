@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container div-main-1">
+    <div class="div-head">
+        <div class="year"></div>
+        <div class="month-ru"></div>
+        <div class="month-ua"></div>
+        <div class="month-en"></div>
+    </div>
+    <div class="calendar">
+        <div class="week">
+            <div class="week-string">Неделя Тиждень Week</div>
+            <div class="week-numbers">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="calendar-days">
+            <div class="day-week" >
+                <div class="week-string">Понедельник Понеділок Monday</div>
+                <div class="day-week-numbers number-1">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Вторник Вівторок Tuesday</div>
+                <div class="day-week-numbers number-2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Среда Середа Wednesday</div>
+                <div class="day-week-numbers number-3">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Четверг Четвер Thursday</div>
+                <div class="day-week-numbers number-4">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Пятница П'ятниця Friday</div>
+                <div class="day-week-numbers number-5">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week before-last">
+                <div class="week-string">Суббота Субота Saturday</div>
+                <div class="day-week-numbers number-6">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week last" >
+                <div class="week-string">Воскресенье Неділя Sunday</div>
+                <div class="day-week-numbers number-7">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container div-main-2">
+    <div class="div-head">
+        <div class="year">
+            <select id="user-year" class="sel-year red">
+
+            </select>
+        </div>
+        <div class="month-ru">
+            <select id="user-month-ru" class="sel-month-ru">
+
+            </select>
+        </div>
+        <div class="month-ua">
+            <select id="user-month-ua" class="sel-month-ua red">
+
+            </select>
+        </div>
+        <div class="month-en">
+            <select id="user-month-en" class="sel-month-en">
+
+            </select>
+        </div>
+    </div>
+    <div class="calendar">
+        <div class="week">
+            <div class="week-string">Неделя Тиждень Week</div>
+            <div class="week-numbers">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="calendar-days">
+            <div class="day-week" >
+                <div class="week-string">Понедельник Понеділок Monday</div>
+                <div class="day-week-numbers number-1">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Вторник Вівторок Tuesday</div>
+                <div class="day-week-numbers number-2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Среда Середа Wednesday</div>
+                <div class="day-week-numbers number-3">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Четверг Четвер Thursday</div>
+                <div class="day-week-numbers number-4">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Пятница П'ятниця Friday</div>
+                <div class="day-week-numbers number-5">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week before-last">
+                <div class="week-string">Суббота Субота Saturday</div>
+                <div class="day-week-numbers number-6">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week last" >
+                <div class="week-string">Воскресенье Неділя Sunday</div>
+                <div class="day-week-numbers number-7">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container div-main-3">
+    <div class="div-head">
+        <div class="year"></div>
+        <div class="month-ru"></div>
+        <div class="month-ua"></div>
+        <div class="month-en"></div>
+    </div>
+    <div class="calendar">
+        <div class="week">
+            <div class="week-string">Неделя Тиждень Week</div>
+            <div class="week-numbers">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="calendar-days">
+            <div class="day-week" >
+                <div class="week-string">Понедельник Понеділок Monday</div>
+                <div class="day-week-numbers number-1">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Вторник Вівторок Tuesday</div>
+                <div class="day-week-numbers number-2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Среда Середа Wednesday</div>
+                <div class="day-week-numbers number-3">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Четверг Четвер Thursday</div>
+                <div class="day-week-numbers number-4">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week" >
+                <div class="week-string">Пятница П'ятниця Friday</div>
+                <div class="day-week-numbers number-5">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week before-last">
+                <div class="week-string">Суббота Субота Saturday</div>
+                <div class="day-week-numbers number-6">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="day-week last" >
+                <div class="week-string">Воскресенье Неділя Sunday</div>
+                <div class="day-week-numbers number-7">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./app.js"></script>
+</html>
